@@ -17,14 +17,14 @@ else if (element.nodeType === Text.TEXT_NODE){
         // element.replaceWith(newElement)
 
         //to remove the blocked word
-      //  element.parentElement.remove()
+       element.parentElement.remove()
 
       //to animate word
-       const newElement = document.createElement('span')
-        newElement.innerHTML = element.textContent.replace(/(sex|porn)/gi,
-        '<span class="rainbow">$1</span>'
-        )
-        element.replaceWith(newElement)
+    //    const newElement = document.createElement('span')
+    //     newElement.innerHTML = element.textContent.replace(/(sex|porn)/gi,
+    //     '<span class="rainbow">$1</span>'
+    //     )
+    //     element.replaceWith(newElement)
 
           //to paragraph
     //     element.parentElement.style.color ='black'
