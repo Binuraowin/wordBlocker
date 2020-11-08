@@ -5,6 +5,6 @@ replaceText(document.body)
      if( element.hasChildNodes()){
          element.childNodes.forEach(replaceText)
      }else if (element.nodeType === Text.TEXT_NODE){
-         element.textContent = element.textContent.replace(/coronavirus/gi,'No')
+         element.textContent = element.textContent.replace(/coronavirus|sex|porn/gi,'No')
      }
  }

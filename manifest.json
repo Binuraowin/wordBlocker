@@ -1,11 +1,11 @@
 {
-    "mainfest_version": 2,
+    "manifest_version": 2,
     "name" : "word remover",
     "version" : "0.1",
     "content_scripts":[
         {
             "matches": ["<all_urls>"],
-            "js":["scripts.js"]
+            "js":["script.js"]
         }
     ]
 }
